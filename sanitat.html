@@ -1,28 +1,90 @@
 <!doctype html>
-<html lang="ca">
+<html lang="es">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Accés a la sanitat / Discriminació</title>
+    <title>Acceso a la sanidad</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <header class="site-header">
       <div class="container">
-        <h1>Accés a la sanitat / Discriminació</h1>
+        <h1>Acceso a la sanidad</h1>
         <a href="index.html" class="back-link">⟵ Tornar a l'inici</a>
       </div>
     </header>
-
+ 
     <main class="container">
-      <section class="challenge-detail">
-        <img src="" alt="Imatge sanitat" class="hero-img" />
-        <article><h3>Impacte sobre les persones</h3><p></p></article>
-        <article><h3>Impacte sobre les empreses</h3><p></p></article>
-        <article><h3>Impacte sobre l'activitat econòmica</h3><p></p></article>
-        <article><h3>Mesures o accions preses</h3><ul><li></li></ul></article>
-        <article><h3>Propostes de mesures</h3><ul><li></li></ul></article>
+      <section class="challenge-detail" aria-labelledby="intro-title">
+        <article id="intro" aria-labelledby="intro-title">
+          <h3 id="intro-title">El acceso a la sanidad</h3>
+          <img src="imagenes/diego/covid2.png" alt="pareja + casa" class="hero-img-customAniol" />
+          <p>
+            Durante la pandemia, muchos sistemas de salud implementaron consultas médicas virtuales para mantener el acceso a la atención médica mientras se reducían los riesgos de contagio. Esto incluyó consultas por videollamada, plataformas de seguimiento de pacientes crónicos y herramientas de diagnóstico remoto.
+          </p>
+        </article>
+
+        <article aria-labelledby="persones-title">
+          <h3 id="persones-title">Impacto sobre las personas</h3>
+          <ul>
+            <li>Brecha tecnológica: Personas mayores o personas sin acceso a internet tienen dificultades para usar estas plataformas.</li>
+            <li>Reducción del riesgo de contagio al evitar visitas presenciales.</li>
+            <li>Limitaciones en diagnósticos que requieren presencia física.</li>
+            <li>Acceso más rápido a consultas médicas sin desplazamiento.</li>
+          </ul>
+        </article>
+
+        <article aria-labelledby="empreses-title">
+          <h3 id="empreses-title">Impacto sobre las empresas</h3>
+          <ul>
+            <li>Inversión obligatoria en plataformas digitales y formación del personal.</li>
+            <li>Oportunidades de negocio en servicios de telemedicina y aplicaciones de salud.</li>
+            <li>Adaptación rápida a modelos híbridos presencial/digital.</li>
+            <li>Desafíos en regulación, privacidad de datos y interoperabilidad de sistemas.</li>
+          </ul>
+        </article>
+
+        <article aria-labelledby="eco-title">
+          <h3 id="eco-title">Impacto sobre la actividad económica</h3>
+          <ul>
+            <li>Crecimiento del mercado digital de salud.</li>
+            <li>Posibles ahorros por reducción de complicaciones y desplazamientos..</li>
+            <li>Mayor eficiencia en la gestión de consultas médicas simples..</li>
+            <li>Costes iniciales de infraestructura y adaptación tecnológica..</li>
+          </ul>
+        </article>
+
+        <article aria-labelledby="mesures-title">
+          <h3 id="mesures-title">Medidas de seguridad para minimizar los daños</h3>
+          <ul>
+            <li>Flexibilización y regulación para consultas online seguras.</li>
+            <li>Formación a médicos y pacientes sobre uso de plataformas digitales.</li>
+            <li>Protección de datos y privacidad de los pacientes.</li>
+            <li>Integración de telemedicina con la atención presencial para mantener calidad asistencial.</li>
+          </ul>
+        </article>
+
+        <article aria-labelledby="opinio-title">
+          <h3 id="opinio-title">Opinión</h3>
+          <p>
+           La telemedicina ha demostrado ser una herramienta clave para garantizar la continuidad asistencial, especialmente en situaciones de emergencia como la pandemia. Su capacidad para acercar la atención médica a personas que antes tenían dificultades para desplazarse es un avance notable del sistema sanitario moderno.
+          </p>
+        </article>
+
+        <aside aria-labelledby="biblio-title">
+          <h3 id="biblio-title">Bibliografía</h3>
+          <ul>
+            <li><a href="https://www.cdc.gov/mmwr/volumes/69/wr/mm6943a3.htm" target="_blank">cdc.gov</a></li>
+            <li><a href="https://www.ama-assn.org/system/files/2020-10/telehealth-impact-study.pdf" target="_blank">ama-assn</a></li>
+            <li><a href="https://www.oecd.org/content/dam/oecd/en/publications/reports/2023/01/the-covid-19-pandemic-and-the-future-of-telemedicine_1c878192/ac8b0a27-en.pdf" target="_blank">oecd</a></li>
+            <li><a href="https://medinform.jmir.org/2022/7/e34826/" target="_blank">jmir</a></li>
+          </ul>
+        </aside>
       </section>
     </main>
+
+    <footer class="site-footer container">
+      <p>Fuente: compilación de fuentes citadas en la bibliografía.</p>
+    </footer>
   </body>
 </html>
